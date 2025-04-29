@@ -1,54 +1,77 @@
-# JwInteractiveMap
-This is a responsive, single-page website that displays an interactive map with clickable location markers. When a user clicks a marker, a popup appears with relevant information. The site is styled with CSS and built using HTML, CSS, and JavaScript.
+# 🗺️ JwInteractiveMap
 
-✨ Features
-📍 Clickable location markers on a map
+This is a responsive, single-page website that displays an interactive map with clickable location markers. When a user clicks a marker, a popup appears with relevant information. The site is styled with CSS and built using **HTML**, **CSS**, and **JavaScript**.
 
-💬 Popup modal with location details
+---
 
-📱 Mobile-responsive design
+## ✨ Features
 
-🔧 Technologies Used
-HTML5
+- 📍 Clickable location markers on a map  
+- 💬 Popup modal with location details  
+- 📱 Mobile-responsive design  
 
-CSS3 (Flexbox layout)
+---
 
-JavaScript (for popup interaction)
+## 🔧 Technologies Used
 
-📂 File Structure
+- **HTML5**  
+- **CSS3** (Flexbox layout)  
+- **JavaScript** (for popup interaction)  
+
+---
+
+## 📂 File Structure
+
+```
 project/
 ├── index.html
 ├── style.css
 ├── script.js
 ├── images/
-│   └── map.png (or your custom map image)
+│   └── map.png        # Your custom map image
 └── README.md
-🚀 Getting Started
+```
+
+---
+
+## 🚀 Getting Started
+
 To run this website locally:
 
-Clone the repository or download the project files.
+1. Clone the repository or download the project files.
+2. Open `index.html` in your web browser.
+3. Click on any map marker to view a popup with location information.
 
-Open index.html in your web browser.
+---
 
-Click on any map marker to view a popup with information.
+## 🧑‍💻 Customization
 
-🧑‍💻 Customization
-To add new markers, insert new .location-marker elements inside .map-container with style="top: X%; left: Y%;" attributes for positioning.
+- Add new markers by inserting `.location-marker` elements inside the `.map-container`, using inline styles like:  
+  ```html
+  <div class="location-marker" style="top: 40%; left: 60%;"></div>
+  ```
+- Modify popup content dynamically using JavaScript.
+- Replace `map.png` inside the `/images/` folder with your own map image.
 
-Modify popup content dynamically using JavaScript if needed.
+---
 
-Update map.png inside /images with your own custom map if required.
+## 📱 Responsive Design
 
-📱 Responsive Design
-The layout adapts for mobile devices:
+The layout automatically adjusts for smaller screens:
 
-Smaller font sizes
+- Scalable popup windows  
+- Reduced font sizes  
+- Adjusted spacing and padding  
 
-Adjusted padding
+---
 
-Scalable popups
+## 📝 License
 
-📝 License
-This project is open source and free to use or modify for personal or commercial use.
+This project is open-source and free to use or modify for personal or commercial purposes.
 
-The live version can be seen on https://samuelsolutions.dk/jw/ 
+---
+
+## 🌐 Live Demo
+
+See the project in action:  
+🔗 [https://samuelsolutions.dk/jw/](https://samuelsolutions.dk/jw/)
